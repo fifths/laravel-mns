@@ -9,7 +9,7 @@ composer require fifths/laravel-mns
 ```
 
 
-## Lumen
+## Lumen5.6
 ```
 $app->register(LaravelMNS\LaravelMNSServiceProvider::class);
 ```
