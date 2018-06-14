@@ -16,14 +16,14 @@ $app->register(LaravelMNS\LaravelMNSServiceProvider::class);
 
 ## config/queue.php
 ```
-        'mns' => [
-            'driver' => 'mns',
-            'key' => env('QUEUE_MNS_ACCESS_KEY_ID'),
-            'secret' => env('QUEUE_MNS_ACCESS_KEY_SECRET'),
-            'endpoint' => env('QUEUE_MNS_ENDPOINT'),
-            'queue' => 'default',
-            'wait_seconds' => 30,
-        ],
+    'mns' => [
+    'driver' => 'mns',
+    'key' => env('QUEUE_MNS_ACCESS_KEY_ID'),
+    'secret' => env('QUEUE_MNS_ACCESS_KEY_SECRET'),
+    'endpoint' => env('QUEUE_MNS_ENDPOINT'),
+    'queue' => 'default',
+    'wait_seconds' => 30,
+],
 ```
 
 ## .env
